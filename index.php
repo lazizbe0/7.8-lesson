@@ -1,4 +1,5 @@
 <?
+date_default_timezone_set("Asia/Tashkent");
 include_once("./includes/function.php");
 include_once("./includes/header.php");
 include_once("./includes/aside.php");

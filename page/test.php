@@ -1,7 +1,10 @@
 <main class="main">
 
 
-
+<section class="head">
+        <h2 class="head__title"><?= $pageTitle?></h2>
+        <p class="head__date"><?=$pageDate?> </p>
+    </section>
     <form action="" method="POST">
 
 

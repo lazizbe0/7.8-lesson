@@ -1,9 +1,9 @@
 
         <main class="main">
-            <section class="head">
-                <h2 class="head__title">Слайдер</h2>
-                <p class="head__date">Сегодня 03 Март 2020 год</p>
-            </section>
+        <section class="head">
+        <h2 class="head__title"><?= $pageTitle?></h2>
+        <p class="head__date"><?=$pageDate?> </p>
+    </section>
             <div class="slider">
                 <div class="slider__line">
                     <img src="../img/1.jpg" alt="" class="slider__img">

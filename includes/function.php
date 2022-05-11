@@ -12,5 +12,27 @@ $pages = [
     "login" => ["name" => "Вход"],
     "registration" => ["name" => "Регистрация"],
     
-]
+];
+$monthRu = [
+    'январь',
+    'февраль',
+    'март',
+    'апрель',
+    'май',
+    'июнь',
+    'июль',
+    'август',
+    'сентябрь',
+    'октябрь',
+    'ноябрь',
+    'декабрь'
+];
+
+$currentMonth = $monthRu[date('n')-1];
+$pageTitle = $pages[$route]['name'];
+$pageDate = date("Сегодня d $currentMonth Y год");
+
+
+
+
 ?>

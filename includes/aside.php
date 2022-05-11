@@ -9,7 +9,7 @@
 
         <? foreach ($pages as $key => $value) : ?>
             <? if (isset($value['icon'])) : ?>
-                <li><a href="?route=<?= $key ?>" class="menu__list-link <?= isset($_GET['route']) == $key ? "active" : "" ?>"><i class="<?= $value['icon'] ?>"></i><?= $value['name'] ?></a></li>
+                <li><a href="?route=<?= $key ?>" class="menu__list-link <?= $route == $key ? "active" : "" ?>"><i class="<?= $value['icon'] ?>"></i><?= $value['name'] ?></a></li>
             <? endif; ?>
 
         <? endforeach; ?>

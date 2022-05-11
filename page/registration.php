@@ -1,10 +1,9 @@
 
         <main class="main">
-            <section class="head">
-                <h2 class="head__title">Регистрация в системе</h2>
-                <p class="head__date">Сегодня 03 Март 2020 год</p>
-            </section>
-
+        <section class="head">
+        <h2 class="head__title"><?= $pageTitle?></h2>
+        <p class="head__date"><?=$pageDate?> </p>
+    </section>
             <form action="" class="form" method="post">
                 <label class="form__label">
                     <span class="form__text">Логин</span>

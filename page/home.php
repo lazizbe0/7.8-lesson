@@ -1,7 +1,7 @@
 <main class="main">
-    <section class="head">
-        <h2 class="head__title">Главная</h2>
-        <p class="head__date">Сегодня 30 Март 2022 год</p>
+<section class="head">
+        <h2 class="head__title"><?= $pageTitle?></h2>
+        <p class="head__date"><?=$pageDate?> </p>
     </section>
     <secrion class="body">
         <h2 class="body__title">О школе Proweb</h2>
